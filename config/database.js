@@ -1,4 +1,5 @@
 module.exports = {
-  database: "mongodb://localhost:27017/MENApplicationDB",
+  database:
+    "mongodb://zakir112:zakir112@ds145895.mlab.com:45895/knowledgebase-traversy-media",
   secret: "yoursecret"
 };
