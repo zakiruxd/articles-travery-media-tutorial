@@ -88,7 +88,7 @@ router.get("/edit/:id", ensureAuthenticated, (req, res) => {
 router.post("/edit/:id", (req, res) => {
   let article = {};
   article.title = req.body.title;
-  article.author = req.body.author;
+  // article.author = req.body.author;
   article.body = req.body.body;
 
   //This basically finds the right article ID
