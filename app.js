@@ -96,6 +96,6 @@ let users = require("./routes/users");
 app.use("/users", users);
 
 //Listener
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server has started on port 3000");
 });
