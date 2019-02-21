@@ -2,12 +2,13 @@
   "name": "menapplication",
   "version": "1.0.0",
   "description": "This is a Node Express and MongoDB app created based on the tutorial provided by Brad Travery from Traversy Media on YouTube.",
-  "engines":{
+  "engines": {
     "node": "10.15.0"
   },
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Zakir Faizal",
   "license": "ISC",
